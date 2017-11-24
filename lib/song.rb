@@ -6,6 +6,9 @@ class Song
     @name = name
     @genre = genre
     genre.songs << self
-    genre.artists << self.artist
   end
+
+  def artists=(artist)
+    @artist = artist
+    genre.artists << self.artist
 end
