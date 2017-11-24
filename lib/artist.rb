@@ -12,4 +12,10 @@ class Artist
     self.songs << song
     song.artist = self
   end
+
+  def add_genre
+    self.songs.collect{|songs| self.genres}
+
+
+    
 end
