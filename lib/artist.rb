@@ -12,6 +12,7 @@ class Artist
     self.songs << song
     song.artist = self
     self.genres << song.genre
+    genre.artists << song.artist
   end
 
 end
