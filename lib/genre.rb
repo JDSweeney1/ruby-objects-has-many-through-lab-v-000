@@ -1,9 +1,9 @@
 class Genre
 
-  attr_reader :genre
+  attr_reader :name
 
-  def initialize(genre)
-    @genre = genre
+  def initialize(name)
+    @name = name
   end
-
+  
 end
