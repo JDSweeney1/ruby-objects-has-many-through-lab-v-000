@@ -8,6 +8,7 @@ class Doctor
 
   def add_appointment(appointment)
     self.appointments << appointment
+    appointment.doctor = self
   end
 
   def patients
