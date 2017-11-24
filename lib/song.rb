@@ -7,9 +7,4 @@ class Song
     @genre = genre
     genre.songs << self
   end
-
-  def artists=(artist)
-    @artist = artist
-    genre.artists << self.artist
-  end
 end
