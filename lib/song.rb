@@ -11,4 +11,5 @@ class Song
   def artists=(artist)
     @artist = artist
     genre.artists << self.artist
+  end
 end
