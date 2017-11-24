@@ -11,6 +11,6 @@ class Doctor
     appointment.doctor = self
   end
 
-  def patient
+  def patients
   end
 end
